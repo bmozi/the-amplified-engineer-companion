@@ -44,6 +44,10 @@ offline package can download the versioned ZIP from the
 See [`EDITION-MAP.md`](EDITION-MAP.md) for the relationship between a companion
 release and the published book.
 
+Human usability evidence is tracked separately from automated checks. See the
+[`External Reader Usability Pass`](READER-USABILITY-PASS.md) for the current
+protocol and honest completion criteria.
+
 ## License and support
 
 Written resources are licensed under CC BY-NC-SA 4.0. The release and

@@ -16,7 +16,8 @@ REQUIRED = (
     "README.md", "START-HERE.md", "INDEX.md", "CHANGELOG.md",
     "CITATION.cff", "EDITION-MAP.md", "ERRATA.md", "LICENSE",
     "LICENSE-CONTENT", "LICENSE-CODE", "COMMERCIAL-USE.md",
-    "CONTRIBUTING.md", "SECURITY.md",
+    "CONTRIBUTING.md", "SECURITY.md", "READER-USABILITY-PASS.md",
+    ".github/ISSUE_TEMPLATE/reader-usability.yml",
 )
 
 
