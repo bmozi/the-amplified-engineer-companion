@@ -1,0 +1,21 @@
+name: Accessibility barrier
+description: Report something that prevents or complicates use of a resource.
+title: "[Accessibility] "
+labels: [accessibility]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Resource and location
+    validations:
+      required: true
+  - type: textarea
+    id: barrier
+    attributes:
+      label: Barrier encountered
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Reader, browser, assistive technology, and operating system

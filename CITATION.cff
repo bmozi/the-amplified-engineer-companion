@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use these materials in research or teaching, please cite the book and companion."
+title: "The Amplified Engineer Reader Companion"
+type: dataset
+authors:
+  - family-names: Briggs
+    given-names: John
+version: 1.0.0
+date-released: 2026-08-29
+repository-code: "https://github.com/bmozi/the-amplified-engineer-companion"
+url: "https://github.com/bmozi/the-amplified-engineer-companion"
+abstract: "Reader-facing worksheets for applying the practices in The Amplified Engineer."
+keywords:
+  - AI-assisted software engineering
+  - engineering judgment
+  - AI agents
+  - responsible AI

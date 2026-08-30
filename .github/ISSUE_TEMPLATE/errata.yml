@@ -1,0 +1,29 @@
+name: Possible erratum
+description: Report a possible error in the book companion.
+title: "[Errata] "
+labels: [errata]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Book format or companion version
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Exact file and section
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current wording or behavior
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Proposed correction and evidence
+    validations:
+      required: true
