@@ -12,7 +12,7 @@ the ideas; these materials help you apply them to one real task.
 
 ## Start here
 
-1. Open the [`Reader Action Workbook`](resources/reader-action-workbook.md).
+1. Applying one standalone task? Open the fifteen-minute [`START-HERE.md`](START-HERE.md) path.
 2. Choose one low-consequence, reversible task that matters to you.
 3. Use only the worksheet paired with the chapter you are reading.
 4. End with a decision, an evidence record, or a safer boundary—not a score.
