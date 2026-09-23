@@ -8,3 +8,5 @@
 - **Think with AI without surrendering judgment:** [Thought-Partner Session Guide](resources/thought-partner-session-guide.md)
 - **First use:** [START-HERE.md](START-HERE.md)
 - **Corrections:** [ERRATA.md](ERRATA.md)
+
+- **Design an AI feature around people:** [Human-Centered AI Design Practice](resources/human-centered-ai-design-practice.md) — compare current, conventional, and AI-assisted paths; test accessibility, explanations, and correction.

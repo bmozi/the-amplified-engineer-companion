@@ -325,6 +325,12 @@ recover the bounded result without borrowed fluency.
 **Decision test:** What does the group now understand differently, and which
 decision changed because the prototype existed?
 
+For an AI feature used by other people, continue with the
+[Human-Centered AI Design Practice](human-centered-ai-design-practice.md).
+Compare the existing process, a conventional improvement, and the AI-assisted
+path before choosing. The supplied fictional data let you practice the
+comparison without private records or access to customers.
+
 ## Conclusion — Thirty-day evidence review
 
 - original task:

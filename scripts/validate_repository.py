@@ -10,7 +10,7 @@ from urllib.parse import unquote
 
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = "1.0.0"
+VERSION = "1.1.0"
 LINK = re.compile(r"!?\[[^\]]*\]\(([^)]+)\)")
 REQUIRED = (
     "README.md", "START-HERE.md", "INDEX.md", "CHANGELOG.md",
@@ -35,9 +35,12 @@ def main() -> int:
         if not (ROOT / relative).is_file():
             errors.append(f"missing required file: {relative}")
 
+    if not (ROOT / "resources/human-centered-ai-design-practice.md").is_file():
+        errors.append("missing human-centered AI design practice")
+
     resources = sorted((ROOT / "resources").glob("*.md"))
-    if len(resources) != 6:
-        errors.append(f"resources contains {len(resources)} worksheets; expected 6")
+    if len(resources) != 7:
+        errors.append(f"resources contains {len(resources)} worksheets; expected 7")
 
     for source in ROOT.rglob("*.md"):
         if ".git" in source.parts:
@@ -65,7 +68,7 @@ def main() -> int:
     if errors:
         print("\n".join(errors), file=sys.stderr)
         return 1
-    print(f"Validated Book 1 companion v{VERSION}: 6 worksheets and all local links.")
+    print(f"Validated Book 1 companion v{VERSION}: 7 worksheets and all local links.")
     return 0
 
 

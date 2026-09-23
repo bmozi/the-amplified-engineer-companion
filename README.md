@@ -25,6 +25,7 @@ resource referenced in Chapter 13.
 
 | Resource | Use it when you need to... |
 | --- | --- |
+| [Human-Centered AI Design Practice](resources/human-centered-ai-design-practice.md) | compare current, conventional, and AI-assisted paths; test accessibility, explanations, and oversight |
 | [Reader Action Workbook](resources/reader-action-workbook.md) | carry one real task through the complete book and a thirty-day review |
 | [AI Leverage Next-Step Guide](resources/ai-leverage-next-step-guide.md) | choose a responsible next experiment without ranking yourself |
 | [Almost-Right Tax Ledger](resources/almost-right-tax-ledger.md) | count inspection, repair, coordination, and trust work hidden by first-draft speed |

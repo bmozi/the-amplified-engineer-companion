@@ -2,7 +2,9 @@
 
 ## Status
 
-Recruitment is open for companion release **v1.0.0**. Automated validation
+The original protocol targets companion **v1.0.0**; recruitment remains open.
+The **v1.1.0** design exercise also needs a new reader pass; no completed
+human usability or learning result is claimed. Automated validation
 checks structure and links; it is not represented as human reader evidence.
 
 ## Purpose
@@ -50,3 +52,13 @@ Submit one issue per participant using the
 [reader-usability form](https://github.com/bmozi/the-amplified-engineer-companion/issues/new?template=reader-usability.yml).
 Aggregate conclusions only after the small pass is complete; do not average
 away a severe failure.
+
+## Additional v1.1.0 design-practice task
+
+Ask a reader to find the human-centered design exercise, choose a system path
+from its supplied data, and explain why a faster draft is insufficient evidence.
+Then give the changed assumption and ask whether their decision changes and
+which obligations remain. Ask them to justify different oversight for an
+internal tag and a customer message. Record their reasoning and wrong turns
+before showing the supplied interpretation. Assess these tasks separately from
+the navigation pass above; successful navigation alone is not learning evidence.

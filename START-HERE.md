@@ -25,6 +25,14 @@ message, or creates another side effect, complete the
 cannot name the authority, evidence, stop condition, and recovery path, keep
 the system advisory.
 
+## If you are designing an AI feature for people
+
+Start with the supplied fictional comparison in the
+[Human-Centered AI Design Practice](resources/human-centered-ai-design-practice.md).
+Choose a next step from complete-task evidence, then use its observation and
+prototype-testing records on your own work. The first exercise needs no code,
+customer access, or personal data.
+
 ## Completion standard
 
 A useful session leaves at least one durable result:
