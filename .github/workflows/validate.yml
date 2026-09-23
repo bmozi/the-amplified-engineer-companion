@@ -24,4 +24,4 @@ jobs:
           python-version: "3.12"
       - run: python scripts/validate_repository.py
       - run: python scripts/build_reader_bundle.py
-      - run: python -m zipfile -t dist/the-amplified-engineer-companion-v1.2.0.zip
+      - run: python -m zipfile -t dist/the-amplified-engineer-companion-v1.3.0.zip

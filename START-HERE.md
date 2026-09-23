@@ -33,6 +33,8 @@ Choose a next step from complete-task evidence, then use its observation and
 prototype-testing records on your own work. The first exercise needs no code,
 customer access, or personal data. Continue with its time-allocation and
 privacy exercises when planning adoption or handling information about people.
+Then try the [harder fraud-review case](resources/human-centered-ai-design-practice.md#harder-case-protection-that-can-also-exclude)
+before reading its worked reasoning.
 
 ## Completion standard
 

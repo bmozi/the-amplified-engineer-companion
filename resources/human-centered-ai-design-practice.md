@@ -385,6 +385,119 @@ mitigation, and stop condition. Consider autonomy and well-being without
 inferring mental health from activity counts. Compare a proposed benefit with
 its distribution across people, not only an overall average.
 
+## Harder case: protection that can also exclude
+
+A fictional payment service must choose its next fraud-review pilot. The goal
+is to reduce unauthorized transfers while allowing legitimate customers to
+complete urgent payments. This is a separate practice case; it does not expand
+Meridian's dispute assistant's authority. Every number below is invented for
+reasoning, not a product benchmark or a claim about a population.
+
+The team replays three approaches against the same 1,000 historical transfer
+requests. Later investigation labeled 40 as unauthorized and 960 as legitimate.
+For this exercise, assume those labels are correct. In real work, challenge
+label quality and how the cases were selected. Each request receives one
+classification per approach; “flagged” means routed for review, not proven fraud.
+
+| Approach | Unauthorized requests flagged | Legitimate requests flagged | Total review cases |
+|---|---:|---:|---:|
+| A: existing transaction rules | 20 of 40 | 30 of 960 | 50 |
+| B: AI using transaction fields already permitted for review | 28 of 40 | 52 of 960 | 80 |
+| C: AI also using persistent device and location histories | 34 of 40 | 106 of 960 | 140 |
+
+For this exercise, plan a pilot window of 1,000 requests with the replay’s case
+mix; verify that workload assumption before real deployment. The window has
+capacity for 80 reviews. Assume comparable effort per case
+for this first calculation. The replay says nothing about actual queue times,
+prevented losses, reviewer decisions, or customer experience. An unflagged
+unauthorized request is a miss in this replay; it is not a measured loss.
+
+A volunteer usability session adds conflicting evidence. Some participants
+value the extra protection. Two people who share a device could not complete
+the proposed verification step without assistance. One participant feared a
+legitimate urgent payment would miss its deadline. These observations expose
+failure paths; the small, self-selected session cannot estimate how common
+they are. The replay has no reliable subgroup breakdown, and dollar severity
+is not supplied. C's additional data collection has not received privacy review.
+
+For a live pilot, a flag could prompt a staffed check or a temporary hold.
+Either can burden legitimate customers. A hold may protect against a transfer
+that cannot be recovered, but “temporary” is not a sufficient limit: specify
+who resolves it, by when, and what happens if the queue is unavailable. Do not
+assume that an explanation, consent screen, or human approval removes the harm.
+
+### Make the decision before reading the reasoning
+
+1. Calculate missed unauthorized requests, review-capacity use, and additional
+   legitimate flags for each approach. State which benefits the replay cannot
+   establish. Do not collapse the decision into one accuracy number.
+2. Choose a next step: retain A while repairing verification, test B within a
+   defined boundary, investigate C without live consequences, or propose a
+   different bounded combination. Name the evidence your choice lacks.
+3. Define permitted data, the action a flag may trigger, maximum unresolved
+   delay, an accessible correction route, and who can suspend the pilot. State
+   what happens when review capacity is exhausted. A hybrid needs fresh testing;
+   its results cannot be inferred by adding the rows above.
+4. Explain who benefits and who bears costs. Give the strongest objection an
+   affected customer, reviewer, and privacy owner could make to your choice.
+   Identify one observation that would reverse your decision.
+
+### Worked reasoning: a conditional choice
+
+A misses 20 labeled unauthorized requests, B misses 12, and C misses 6. Their
+review demand is 50, 80, and 140 cases. Relative to A, B flags eight more
+unauthorized requests and 22 more legitimate requests. C flags six more
+unauthorized requests than B but 54 more legitimate requests and requires 60
+reviews beyond capacity. Flags found are not losses prevented. Different harm
+severity, review effort, or customer constraints could change the judgment.
+
+One defensible choice is a shadow evaluation of B with no new customer-facing
+action, while retaining A's current process and repairing accessible
+verification. B reaches the stated capacity ceiling with no buffer; a replay
+cannot justify assuming that every review will fit a live window. Measure
+actual handling time and bursts, resolve the failed verification path with
+users, and obtain the applicable privacy review before introducing a new hold.
+The owner of the pilot must define the release conditions and a tested fallback.
+Shadow evaluation still needs permitted data use and protected records. Budget
+its analysis separately from live review: shared staffing requires a smaller
+shadow sample or additional capacity, not double-counting the same reviewers.
+
+The strongest objection is that waiting leaves additional unauthorized
+requests undetected by the live rules. That cost matters. If failures under A
+are causing serious harm and a safely staffed, accessible route is available,
+a limited live B pilot may be better justified. Its scope, hold deadline,
+queue-overload response, and review authority need explicit evidence. Returning
+to A on overload also restores A's misses; record that residual risk rather
+than calling the fallback safe by definition.
+
+C's better detection deserves investigation, but the current record cannot
+justify live use. Its queue exceeds capacity, additional collection remains
+unreviewed, and legitimate flags increase substantially. A narrower data design
+or more capacity might change the case; neither improvement is established by
+these numbers. Retaining A while repairing its worst failure may also be a
+reasoned choice if the team cannot yet support B. State the harms accepted
+during that interval and the deadline for reconsideration.
+
+### Change the evidence
+
+Now reduce review capacity from 80 to 55 during the pilot window. A fits only
+under the equal-effort assumption; B exceeds capacity by 25 and C by 85.
+Revise your choice before looking for a convenient new threshold. Threshold
+changes alter both misses and legitimate flags and require another evaluation.
+If you restrict the pilot, explain how cases are selected and who might lose
+protection or access. Do not silently drop cases from the queue.
+
+Then suppose capacity returns to 80, but user testing shows that the proposed
+recovery route still excludes people using shared devices. Extra capacity does
+not repair that barrier. Decide what must change before the affected path can
+go live, and what protection remains available in the meantime.
+
+A strong response uses the supplied arithmetic, distinguishes replay findings
+from live outcomes, acknowledges the best objection, and connects each control
+to a failure it can actually interrupt. Several decisions can meet that
+standard. “Choose the most accurate model” and “always keep a human involved”
+leave the central tradeoffs unresolved.
+
 ## Show what you can now justify
 
 Apply the method to a new case before consulting the worked answers. Produce:

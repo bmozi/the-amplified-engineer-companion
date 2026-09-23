@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.0 — 2026-09-23
+
+- Added a fictional fraud-review case with competing protection, privacy, accessibility, and review-capacity consequences. Worked reasoning compares defensible options and revises the decision when capacity changes.
+
 ## 1.2.0 — 2026-09-23
 
 - Carried forward the book workbook's proportional-review guidance, paper-practice alternatives, evidence for confidence, recovery authority, and retain/narrow/expand choices; retained the public stable-finding replacement test.

@@ -72,3 +72,13 @@ the case to a recommendation system. Observe whether they can connect a human
 outcome, harm, control, and revisable decision without reading the answers.
 Record mistakes and unresolved learning needs; no completed human assessment
 is claimed for this release.
+
+## Additional v1.3.0 tradeoff task
+
+Before showing the worked reasoning, ask a reader to choose a next step for the
+fraud-review case. Observe whether they distinguish flagged requests from
+prevented losses, count legitimate flags and review capacity, identify missing
+privacy/accessibility evidence, and defend an alternative to their own choice.
+Reduce capacity to 55 and then restore it while leaving the shared-device
+barrier unresolved. Record whether the reader revises both scope and controls,
+including residual risk in the fallback. This assessment remains pending.
