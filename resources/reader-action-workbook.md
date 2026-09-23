@@ -145,7 +145,9 @@ For each pass, record one attempted disproof and its result.
 - governed condition:
 - accepted baseline and revision:
 - exact proof statement:
-- comparison method:
+- comparison method and stable finding identities (not only totals):
+- replacement test: remove one old finding and add a different one in the same category; the gate must detect the new finding:
+- handling of moved code or uncertain finding matches:
 - categories that may not trade off:
 - false-positive budget:
 - exception owner, evidence, and expiry:

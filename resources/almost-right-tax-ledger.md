@@ -8,6 +8,13 @@ to reveal where work moved, not to prove that AI was good or bad.
 - Intended outcome:
 - Work class:
 - Human-built comparison, if available:
+- Start and completion boundary for each comparison:
+- Work already completed before the measured window, and follow-up excluded:
+
+Keep hypothetical manual effort separate from observed elapsed time. Do not
+calculate a speed ratio when the two clocks cover different work or completion
+states; mark unmeasured effort as unknown.
+
 - Agent/model and relevant configuration:
 - Authority granted:
 - Stop condition:

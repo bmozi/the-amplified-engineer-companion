@@ -2,6 +2,9 @@
 
 ## Unreleased (main; not yet tagged)
 
+- Clarified finding-identity ratchets and equal-boundary effort comparisons
+  after the September 9 manuscript-only AI reader review.
+
 - Added a structured external-reader usability protocol and observation form
   without treating automated checks as human evidence.
 
