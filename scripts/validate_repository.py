@@ -10,7 +10,7 @@ from urllib.parse import unquote
 
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = "1.1.0"
+VERSION = "1.2.0"
 LINK = re.compile(r"!?\[[^\]]*\]\(([^)]+)\)")
 REQUIRED = (
     "README.md", "START-HERE.md", "INDEX.md", "CHANGELOG.md",

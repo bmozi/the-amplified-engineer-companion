@@ -62,3 +62,13 @@ which obligations remain. Ask them to justify different oversight for an
 internal tag and a customer message. Record their reasoning and wrong turns
 before showing the supplied interpretation. Assess these tasks separately from
 the navigation pass above; successful navigation alone is not learning evidence.
+
+## Additional v1.2.0 transfer tasks
+
+Ask readers to explain why a scheduling barrier may survive a chatbot, allocate
+net capacity while accounting for both trainee and mentor effort, and identify
+why a masked message or familiar voice is insufficient evidence. Then change
+the case to a recommendation system. Observe whether they can connect a human
+outcome, harm, control, and revisable decision without reading the answers.
+Record mistakes and unresolved learning needs; no completed human assessment
+is claimed for this release.

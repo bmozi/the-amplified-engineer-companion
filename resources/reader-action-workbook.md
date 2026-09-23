@@ -75,6 +75,11 @@ Assess one task, not the whole person.
 
 ## Chapter 4 — Question frontier and delegation contract
 
+Start with the contract below when the task is clear. Use only the inquiry
+fields that could change a consequential decision; a small task may need one
+question. The primer ticket-summary case and completed Chapter 4 contract
+provide a paper alternative when no suitable work item is available.
+
 - decision or learning goal:
 - selected thought-partner job:
 - what I currently believe and why:
@@ -121,7 +126,9 @@ retire.
 
 ## Chapter 6 — Six-pass adversarial review
 
-For each pass, record one attempted disproof and its result.
+For each applicable pass, record one attempted disproof and its result. Explain
+why an omitted pass does not apply. The primer ticket-summary case can supply
+a paper practice; it does not establish production readiness.
 
 1. Correctness:
 2. Failure modes and edge cases:
@@ -193,7 +200,7 @@ authority from comment volume alone.
 
 **Oldest supported environment:**
 
-**Assumption corrected by the run:**
+**Assumption corrected or confirmed by the run:**
 
 **Retained regression case:**
 
@@ -216,6 +223,10 @@ authority from comment volume alone.
 
 At the decision date choose exactly one: bounded expansion, revision and
 retest, hold for evidence, or stop.
+
+Use the [time-allocation exercise](human-centered-ai-design-practice.md#decide-who-receives-the-time)
+to examine who receives the gain, whose burden grows, and what commitment must
+change before additional delivery or learning can fit.
 
 ## Chapter 11 — Responsibility redesign
 
@@ -264,7 +275,7 @@ Imagine that no customer or employee opens the current interface.
 - outcome evidence beyond activity:
 - comparison and why it is imperfect:
 - missing observations and confounders:
-- confidence: low, moderate, or high:
+- confidence: low, moderate, or high, with supporting basis:
 
 **Decision:** expand, revise and retest, hold, or stop.
 
@@ -279,7 +290,7 @@ Imagine that no customer or employee opens the current interface.
 - human decisions and corrections:
 - acceptance claims mapped to evidence:
 - operational effects and detection:
-- recovery path:
+- recovery path, decision limits, and who may stop, retry, reconcile, or wait:
 - remaining uncertainty:
 - acceptance, operation, and consequence owners:
 
@@ -336,8 +347,8 @@ comparison without private records or access to customers.
 - original task:
 - final intent artifact:
 - strongest attempted disproof:
-- control moved from memory into the system:
-- AI-review finding that changed the work:
+- new or tested existing control and the evidence for keeping or changing it:
+- AI-review finding, if AI review was piloted:
 - human-only finding:
 - failure or surprise:
 - review labor shifted to someone else:
@@ -348,7 +359,7 @@ comparison without private records or access to customers.
 - result and consequence owner:
 - continuing software obligation:
 - what should remain human led:
-- next safe increase in authority:
+- next justified authority decision: retain, narrow, or expand:
 - reason to hold, narrow, or stop:
 
 Return to the hope and fear recorded before reading. Replace each prediction

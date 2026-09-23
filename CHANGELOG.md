@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.2.0 — 2026-09-23
+
+- Carried forward the book workbook's proportional-review guidance, paper-practice alternatives, evidence for confidence, recovery authority, and retain/narrow/expand choices; retained the public stable-finding replacement test.
+
+- Added outcome-first design, allocation of saved time, privacy/data-flow and synthetic-media exercises, with worked answers and changed assumptions.
+- Added a transfer assessment connecting human needs, fairness, autonomy, oversight, and evidence of benefit. No human-learning or compliance result is claimed.
+
 ## 1.1.0 — 2026-09-23
 
 - Added a self-contained human-centered AI design practice: current versus conventional versus AI-assisted systems, complete-effort calculations, changed assumptions, observation, accessibility, explanations, and justified oversight selection.

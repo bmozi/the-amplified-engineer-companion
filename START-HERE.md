@@ -31,7 +31,8 @@ Start with the supplied fictional comparison in the
 [Human-Centered AI Design Practice](resources/human-centered-ai-design-practice.md).
 Choose a next step from complete-task evidence, then use its observation and
 prototype-testing records on your own work. The first exercise needs no code,
-customer access, or personal data.
+customer access, or personal data. Continue with its time-allocation and
+privacy exercises when planning adoption or handling information about people.
 
 ## Completion standard
 

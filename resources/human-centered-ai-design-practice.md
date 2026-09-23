@@ -265,9 +265,151 @@ which evidence changed your decision, and what new observation could reverse
 it. Then apply the method to a different task. A completed worksheet is a
 reasoning record, not proof of human learning or production readiness.
 
+## Begin with a human outcome
+
+Use Chapter 2's intent questions before proposing a feature. State who needs
+what outcome, the circumstances that constrain them, and what would count as
+success. Separate observation from assumption. Keep both the outcome and the
+solution revisable when research exposes a mistake.
+
+**Practice:** a college requests a chatbot because working students miss support
+appointments. Interviews suggest the available appointment hours conflict with
+students' shifts. Compare clearer booking instructions, different service
+hours, and an AI-assisted route. What evidence would distinguish inability to
+find an appointment from inability to attend it?
+
+**Suggested reasoning:** first verify the scheduling constraint with affected
+students and service staff. A chatbot may help discovery but cannot create
+staff availability by itself. Define success as receiving the needed support
+under feasible conditions, then test the service arrangement as well as the
+interface. Do not treat chatbot use as proof that the student's need was met.
+This is a fictional exercise, not a finding about an actual college.
+
+## Decide who receives the time
+
+Use with Chapter 10. All figures below are invented weekly totals for a
+comparable workload meeting the same acceptance criteria. They illustrate
+allocation, not a measured saving or a prediction for your team.
+
+| Work | Current path | AI-assisted path |
+|---|---:|---:|
+| Prepare changes | 30 hours | 20 hours |
+| Review and repair | 10 hours | 18 hours |
+| Complete staff effort | 40 hours | 38 hours |
+
+The manager proposes ten additional hours of delivery commitments. A junior
+engineer needs two hours of supervised practice. The reviewer is already
+handling an after-hours queue. Staff have differing constraints outside work;
+none should have to disclose private circumstances in this exercise.
+
+Before reading the interpretation:
+
+1. Calculate net capacity. Whose workload falls and whose rises?
+2. Explain why a team total cannot establish that the review queue is manageable.
+3. Propose an allocation and name what commitment must change to make it real.
+4. Define the evidence and review date that would make you revise it.
+
+**Suggested interpretation:** preparation falls by ten hours while review rises
+by eight, leaving two hours of net staff capacity. Ten new hours of commitments
+would overallocate the stated saving by eight. First address the reviewer
+bottleneck: redistribute qualified work, improve the workflow, reduce scope, or
+hold expansion. The two-hour practice session also needs a mentor and usable
+calendar time. Count both people's effort; one hour together consumes two staff
+hours. The aggregate saving does not establish that either person is available.
+
+A defensible decision is to hold the delivery increase, schedule a bounded
+learning session by explicitly reducing another commitment, and review queue
+age, rework, accepted outcomes, and after-hours load at the next checkpoint.
+Another allocation may be justified; explain whose needs it serves and what
+it defers. Do not silently finance the plan with personal time.
+
+**Changed assumption:** the assisted review total falls from eighteen to twelve
+hours without reducing quality or changing the workload. Net capacity is now
+eight hours. Reconsider the allocation, but verify that the reduction is real
+and schedulable. It still does not decide how much should go to delivery,
+learning, or reducing overload. That requires an accountable decision with
+affected people.
+
+Record the beneficiary, shifted burden, selected allocation, displaced
+commitment, owner, review date, and evidence that could reverse the decision.
+Treat capability requirements and justified non-use separately from enthusiasm
+or tool activity. This is leadership practice, not an assertion of employment
+law or a guarantee of an unchanged role.
+
+## Trace privacy, authority, and wider harm
+
+Use Chapter 16's data and consequence review. Stay with synthetic records for
+this exercise. The following proposed extensions are fictional:
+
+- Retain all dispute messages indefinitely “for future training.”
+- Rank customers by repeated help requests and staff by time spent per case.
+- Accept a familiar-sounding voice message as authority to change payment details.
+
+For each proposal, identify the legitimate outcome, necessary data, possible
+harm, a less intrusive alternative, and the decision owner. Map collection,
+model/provider access, logs, stored outputs, recipients, retention, and deletion.
+Include access isolation, protected storage/transmission, and an incident route.
+Name what privacy or legal review must resolve before real data is used.
+
+**Suggested reasoning:** an unspecified future purpose does not justify
+indefinite retention. A masked message may still identify someone through its
+content or linked records. Help frequency and handling time may reflect
+accessibility barriers or case complexity; using them to penalize people could
+compound an existing disadvantage. A recognizable voice may be synthetic.
+Verify a consequential instruction through an established authenticated route;
+retain the block on refund execution in this case.
+
+A practical test record names **input, expected protection, observed result,
+owner, and unresolved risk**. For example:
+
+- Ask for another account's records: access must be denied independently of
+  what the model says.
+- Request deletion: trace covered copies and derived stores; identify any
+  required retention exception or provider limitation rather than promising
+  universal erasure.
+- Submit generated evidence: preserve its status as unverified, retain the
+  source distinction, and require the applicable authentication or review.
+- Challenge a classification: the person must have a usable correction route
+  to someone able to change the decision.
+
+Encryption and access controls do not settle whether collection or profiling
+is appropriate. An anonymity claim needs evidence about re-identification risk.
+Have qualified owners resolve applicable legal obligations; a completed
+worksheet does not establish compliance.
+
+**Transfer:** change the system to a job-opportunity recommender or a public
+information feed. Who might repeatedly lose visibility? Could personalization
+reinforce exclusion or narrow the information people encounter? Could generated
+content mislead people about who said something? Name a relevant measure,
+mitigation, and stop condition. Consider autonomy and well-being without
+inferring mental health from activity counts. Compare a proposed benefit with
+its distribution across people, not only an overall average.
+
+## Show what you can now justify
+
+Apply the method to a new case before consulting the worked answers. Produce:
+
+- a human outcome grounded in context, with assumptions still to test;
+- a comparison including a credible conventional alternative;
+- one privacy/data-flow record and one harm pathway affecting another person;
+- controls justified by authority, consequence, and time to intervene;
+- an accessible way to understand, challenge, and recover the result; and
+- a decision with evidence, owner, limitation, and condition for revision.
+
+Ask a colleague to change one assumption and challenge your decision. If the
+reasoning no longer holds, revise it. Missing user evidence should remain
+explicitly pending. This demonstrates a reasoning attempt; actual competence
+requires feedback, repeated application, and evidence from real contexts.
+
 ## Sources and further practice
 
 Primary references, accessed September 23, 2026:
+
+- [NIST human-centered design overview](https://www.nist.gov/itl/iad/human-centered-technologies/human-factors-human-centered-design) — ISO-derived principles; page updated May 27, 2026 and marked no longer maintained.
+- [Digital.gov HCD principles](https://digital.gov/guides/hcd/introduction/principles)
+- [NIST Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1)
+- [NIST de-identification guidance](https://csrc.nist.gov/pubs/ir/8053/final)
+- [EDPB Opinion 28/2024](https://www.edpb.europa.eu/system/files/2024-12/edpb_opinion_202428_ai-models_en.pdf)
 
 - [W3C WCAG 2.2](https://www.w3.org/TR/WCAG22/)
 - [Nielsen's usability heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/)
